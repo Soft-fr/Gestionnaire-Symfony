@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Admin Dashboard{% endblock %}
+
+{% block body %}
+    <h1>Admin Dashboard</h1>
+    <ul>
+        <li><a href="{{ path('app_client_index') }}">Gérer les Clients</a></li>
+        <li><a href="{{ path('app_entreprise_index') }}">Gérer les Entreprises</a></li>
+    </ul>
+{% endblock %}
