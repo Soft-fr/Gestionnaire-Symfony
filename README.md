@@ -10,10 +10,10 @@ Suivez ces étapes pour installer et exécuter le projet localement :
 
 1. **Cloner le référentiel :** Utilisez la commande Git suivante pour cloner ce référentiel sur votre machine locale.
 
-   git clone git@github.com:Soft-fr/Gestionnaire-Symfony.git
+   git clone https://github.com/Soft-fr/Gestionnaire-Symfony.git
 2. **Accéder au répertoire du projet :** Changez de répertoire pour accéder au répertoire du projet.
 
-   cd TP-Symfony
+   cd Gestionnaire-Symfony
 3. **Installer les dépendances :** Utilisez Composer pour installer les dépendances du projet.
 
    composer install
